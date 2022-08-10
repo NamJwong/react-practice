@@ -12,6 +12,11 @@ const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
+
+  body, button, input, textarea {
+    font-family: 'Pretendard';
+  }
+
   button {
     cursor: pointer;
     border: none;
