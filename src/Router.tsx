@@ -1,5 +1,5 @@
+import Canvas from 'canvas';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import Canvas from './canvas';
 
 export default function Router() {
   return (
