@@ -1,15 +1,16 @@
 import { default as formIcon } from 'common/assets/neogasogaeseo/form-icon.svg';
 import { ReactComponent as Logo } from 'common/assets/neogasogaeseo/logo.svg';
+import { default as profileImage } from 'common/assets/cute/finnjake.jpg';
+import React from 'react';
 import * as S from './style';
 
-export default function Image() {
-  const name = '주엉줭';
+export const Result = React.forwardRef<HTMLDivElement, object>((props, ref) => {
+  const name = '주엉줭줭줭줭';
   const date = '2022-08-13';
   const question = '나와 함께하며 당신이\n 닮고 싶었던 능력이 있었나요?';
   const title = '너가 닮고 싶은 나의 일잘러 모습';
-  const profileImage = 'https://i.pinimg.com/736x/51/5c/53/515c534fa39c838cbab9112e757af829.jpg';
   return (
-    <S.Container>
+    <S.Container ref={ref}>
       <div>
         <img src={profileImage} />
         <div>
@@ -30,4 +31,4 @@ export default function Image() {
       </S.Card>
     </S.Container>
   );
-}
+});
