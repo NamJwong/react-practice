@@ -1,16 +1,19 @@
-import { COLOR } from './../styles/neogasogaeseo/color';
+import { COLOR } from '../styles/neogasogaeseo/color';
 import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   width: 1080px;
   height: 1920px;
   padding-top: 433px;
   background-color: ${COLOR.GRAY_1};
   & > *:first-child {
+    width: 100%;
+    margin-left: 226px;
     display: flex;
+    /* justify-content: center; */
     gap: 35.34px;
     margin-bottom: 57.43px;
     & > *:first-child {
@@ -20,6 +23,7 @@ export const Container = styled.div`
       object-fit: cover;
     }
     & > *:last-child {
+      width: 100%;
       padding-top: 22.09px;
       & > *:first-child {
         font-weight: 600;
@@ -37,6 +41,7 @@ export const Container = styled.div`
 `;
 
 export const Card = styled.div`
+  margin-left: 226px;
   width: 627.32px;
   height: 804.04px;
   background-color: ${COLOR.WHITE};
@@ -62,6 +67,7 @@ export const Card = styled.div`
     white-space: pre-line;
   }
   & > *:nth-child(3) {
+    width: 100%;
     font-weight: 400;
     font-size: 33.1333px;
     color: ${COLOR.GRAY_5};
