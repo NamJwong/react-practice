@@ -8,6 +8,7 @@ export default function Home() {
       <button onClick={() => navigate('/boolean-type-prop-optional')}>
         boolean type prop의 optional 여부에 따른 사용성 테스트
       </button>
+      <button onClick={() => navigate('/boolean-type-prop-optional')}>canvas API 요리조리</button>
     </div>
   );
 }
