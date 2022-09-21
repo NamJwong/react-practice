@@ -1,4 +1,4 @@
-import { COLOR } from '../styles/neogasogaeseo/color';
+import { COLOR } from '../../styles/neogasogaeseo/color';
 import styled from 'styled-components';
 
 export const Container = styled.div`
