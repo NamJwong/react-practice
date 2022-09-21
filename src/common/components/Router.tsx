@@ -1,6 +1,5 @@
-import BooleanTypePropOptional from 'boolean-type-prop-optional';
-import Canvas from 'canvas';
-import Home from 'home';
+import BooleanTypePropOptional from 'practices/boolean-type-prop-optional';
+import Home from 'common/components/home';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 export default function Router() {
@@ -9,7 +8,7 @@ export default function Router() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/boolean-type-prop-optional" element={<BooleanTypePropOptional />} />
-        <Route path="/canvas" element={<Canvas />} />
+        {/* <Route path="/canvas" element={<Canvas />} /> */}
       </Routes>
     </BrowserRouter>
   );

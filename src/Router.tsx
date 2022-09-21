@@ -1,6 +1,6 @@
-import BooleanTypePropOptional from 'boolean-type-prop-optional';
-import DomToImageFileSaver from 'dom-to-image-file-saver';
-import Home from 'home';
+import BooleanTypePropOptional from 'practices/boolean-type-prop-optional';
+import DomToImageFileSaver from 'practices/dom-to-image-file-saver';
+import Home from 'common/components/home';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 export default function Router() {
